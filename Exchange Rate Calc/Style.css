@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 2rem;
+    color: #bcd8fb;
+}
+
+.calculator{
+    width: 30%;
+    margin: auto;
+}
+
+.currency , .swap{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+}
+
+.Currency-exchange-img{
+    text-align: center;
+    padding-top: 5rem;
+}
+#amount-one{
+    border-radius: 7px;
+    border-style: none;
+    padding: 0.5rem;
+    width: 10rem;
+}
+select{
+    padding: 0.5rem;
+}
+
+button{
+    padding: 0.5rem;
+    font-size: 1rem;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+    width: 4.5rem ;
+    font-weight: 700;
+}
